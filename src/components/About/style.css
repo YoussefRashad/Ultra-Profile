@@ -1,0 +1,283 @@
+
+
+.ResumeSeciton {
+    font-size: 13px;
+
+}
+
+body {
+    margin: 0;
+    background-color: white
+}
+
+.main {
+    direction: ltr;
+    text-align: center;
+    background-color: white
+}
+
+.header {
+    font-size: 0;
+    background-color: white
+}
+
+.he-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    background-color: white
+}
+
+.prfile {
+    margin-top: 10px;
+    background-color: white
+}
+
+.img-profile {
+    width: 115px;
+    background-color: white
+}
+
+.born {
+    color: #626262;
+    background-color: white
+}
+
+.he-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    background-color: white
+}
+
+.name {
+    font-size: 45px;
+    border: 2px solid black;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    color: #858688;
+    height: 65px;
+    line-height: 56px;
+    background-color: white
+}
+
+.job {
+    margin-top: 10px;
+    font-size: 25px;
+    color: #929292;
+    background-color: white
+}
+
+.part-cv {
+    margin-top: 15px;
+    background-color: white
+}
+
+.border-part {
+    height: 4px;
+    background: #403E3F;
+    width: 95%;
+    margin: auto;
+    margin-bottom: -5px;
+}
+
+.name-part {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #403E3F;
+    color: #53cae8;
+    display: inline-block;
+    margin-top: -18px;
+    height: 30px;
+    line-height: 29px;
+    font-size: 25px;
+}
+
+.div-1,
+.div-2,
+.div-3,
+.div-4,
+.div-3a {
+    display: inline-block;
+    vertical-align: top;
+    background-color: white
+}
+
+.div-1 {
+    width: 25%;
+}
+
+.div-2 {
+    width: 100%;
+}
+
+.div-3 {
+    width: 75%;
+}
+
+.div-4 {
+    width: 100%;
+}
+
+.div-3a {
+    width: 33.33%;
+}
+
+.div-row {
+    margin-top: 10px;
+}
+
+.div-head {
+    font-size: 20px;
+    color: #828282;
+    font-weight: 600;
+    text-align: left;
+    background-color: white
+}
+
+.div-body {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    background-color: white
+}
+
+.body-part {
+    display: flex;
+    background-color: white
+}
+
+.div-body>p {
+    font-size: 14px;
+    color: #403e3f;
+    margin: 0;
+    font-weight: 400;
+    background-color: white
+}
+
+.arrow {
+    margin-left: 6px;
+    font-size: 19px;
+    color: #000;
+    background-color: white
+}
+
+
+.div-point {
+    border-left: 2px solid #403e3f;
+    margin-left: 50px;
+    position: relative;
+    text-align: left;
+    padding-left: 20px;
+    background-color: white
+}
+
+.height-point {
+    height: 105px;
+}
+
+.row-point {
+    margin-top: 8px;
+}
+
+.point {
+    position: absolute;
+    left: -6px;
+    width: 10px;
+    height: 10px;
+    background: #403e3f;
+    border-radius: 36%;
+    margin-top: 7px;
+}
+
+.body-point {
+    padding-right: 10px;
+}
+
+.head-point {
+    /*color: #26d0ee;*/
+    font-size: 13px;
+    background-color: white
+}
+
+.cont-body {
+    color: #000;
+    margin-top: 5px;
+    background-color: white
+}
+
+.cont-part {
+    margin-top: 10px;
+    font-size: 0;
+}
+
+.div-skill {
+    text-align: left;
+    margin-left: 50px;
+    height: 25px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #484848;
+    line-height: 22px;
+    margin-top: 0px;
+    background-color: white
+}
+
+.mid-div {
+    border-left: 1px solid #b7b7b7;
+    border-right: 1px solid #b7b7b7;
+    padding-left: 5px;
+    padding-right: 10px;
+    background-color: white
+}
+
+.imgdiv-part {
+    margin-top: 20px;
+    height: 40px;
+}
+
+.img-part {
+    width: 35px;
+    height: 35px;
+}
+
+.title-img {
+    font-weight: 400;
+    color: #585858;
+    font-size: 16px;
+}
+
+.row-contact {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+    margin-top: 13px;
+    display: flex;
+    vertical-align: top;
+    line-height: 23px;
+}
+
+.icon-contact {
+    color: #000;
+    font-size: 20px;
+    width: 22px;
+    display: inline-block;
+    text-align: center;
+}
+
+.name-contact {
+    color: #403e3f;
+    font-weight: 600;
+    font-size: 15px;
+    word-wrap: break-word;
+    margin-left: 5px;
+    line-height: 20px;
+}
+
+.light-Color {
+    color: #828282;
+    background-color: white
+}
