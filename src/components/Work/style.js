@@ -14,14 +14,11 @@ export const SpanTitle = Styled.span`
 `
 export const Part = Styled.div`
     margin-top: 20px;
-    width: 30%;
-    float: left;
-    height: auto;
-    padding: 100px 0;
+    height: 400px;
+    padding: 60px 0;
     border: 1px solid #888;
     box-sizing: border-box;
     text-align: center;
-    margin-left: ${props => props.pos === 1 || (props.pos%3 === 1) ? 0 : '5%'};
 `
 
 export const Icon = Styled.i`
@@ -30,17 +27,17 @@ export const Icon = Styled.i`
 `
 
 export const PartTitle = Styled.h4`
-    font-size: 25px;
+    font-size: 23px;
     color: #eb5424;
     margin-bottom: 20px
 `
 export const Line = Styled.hr`
     width: 60%;
     margin: auto;
-    margin-bottom: 20px
+    margin-bottom: 18px
 `
 export const PartDesc = Styled.p`
     font-size: 14px;
     color: #888;
-    padding: 20px
+    padding: 18px
 `

@@ -1,31 +1,26 @@
 import React from 'react';
-import { HomeSection, HomeInformation, HomeTitle, HomeInfoText, HomeDesc, HomeSpan } from './style.js';
+import {
+    HomeSection, HomeInformation, HomeTitle, HomeInfoText,
+    HomeDesc, HomeSpan
+} from './style.js';
+import bg from '../../assets/images/Home/home-bg.jpg'
 
-export default function Home() {
+const index = () => {
     return (
-        <HomeSection>
+        <HomeSection image={bg}>
             <div className="container">
                 <HomeInformation>
                     <HomeTitle>Youssef Rashad</HomeTitle>
                     <HomeInfoText>Software Engineer</HomeInfoText>
                     <HomeInfoText>MERN Stack Developer</HomeInfoText>
                     <HomeDesc>
-                        {/* Iam a professional <HomeSpan>Software Enginner</HomeSpan>
-                        and Front-End Developer creating modern and resposive designs to Web and Mobile. 
-                        Let us work together. Thank you. */}
-                        I'm a professional <HomeSpan>Software Enginner </HomeSpan>
-                        and <HomeSpan>MERN Stack Developer</HomeSpan>.
-                        <br></br>
-                        I'm looking forward to being innovation and creative, 
-                        and my objective is to apply the knowledge acquired through 
-                        my studies in computer science, my practical skills and experience through various 
-                        student organizations with experience 
-                        in my field SWE.
-
+                        I'm a <HomeSpan>Software Enginner </HomeSpan>and <HomeSpan>MERN Stack Developer</HomeSpan> who is passionate about creating technology to elevate people and help new developers to find the right path. Some technologies I enjoy working with include Javascript, NodeJS, ReactJS, Express and MonogoDB.
                     </HomeDesc>
-                    <button className="btn btn-primary btn-lg">Let's Begin</button>
+                    <a href="#work" className=" btn btn-primary btn-lg">Let's Begin</a>
                 </HomeInformation>
             </div>
         </HomeSection>
-    )
+    );
 }
+
+export default index;

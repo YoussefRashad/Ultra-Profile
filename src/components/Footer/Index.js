@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom'
 import './style.css'
 
 export default function Footer() {
+
     return (
-        <footer className="footer-distributed">
+        <footer className="footer-distributed mt-3" style={{ backgroundColor: "black", color: "white", borderRadius: '5%' }}>
 
             <div className="footer-left">
                 <h3>Ultra<span>Profile</span></h3>
@@ -15,7 +16,7 @@ export default function Footer() {
                     <Link to="/work">Work</Link>
                     {" | "}
                     <Link to="/achievement">Achievement</Link>
-                    <p></p>
+                    <br />
                     <Link to="/projects">Projects</Link>
                     {" | "}
                     <Link to="/about">About</Link>
@@ -56,7 +57,9 @@ export default function Footer() {
                     <a href="/" target="_blank" rel="noopener noreferrer" className="youtube"><i className="fa fa-youtube"></i></a>
                 </div>
             </div>
-
+            <div className="text-muted text-center mt-3">
+                {new Date().toUTCString()}
+            </div>
         </footer>
     )
 }

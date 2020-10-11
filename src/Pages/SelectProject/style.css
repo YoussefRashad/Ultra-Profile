@@ -1,0 +1,15 @@
+
+
+.project{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.project p{
+    font-weight: 500;
+    color: #eb5424;
+}
+.projectInfo{
+    margin-left: 8px;
+    font-weight: normal;
+    color: #000;
+}

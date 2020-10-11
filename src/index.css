@@ -4,7 +4,9 @@
 *:before {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
+
 body {
   font-family: lucida sans;
 }
@@ -16,4 +18,42 @@ body {
 
 .margin-bottom {
   margin-bottom: 20px
+}
+
+.list-Link{
+  display: block;
+  color: #222;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+.list-Link:hover{
+    color: #eb5424;
+    text-decoration: none;
+}
+.project-links{
+  font-size: 16px;
+}
+
+.button-home{
+  background: #eb5424;
+    color: #fff;
+    font-size: 18px;
+    width: 150px;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-home:hover{
+  background: #fff;
+  color: #eb5424
+}
+@media (max-width:575px) {
+  .button-home{
+    font-size: 15px;
+    width: 200px;
+    font-weight: normal;
+  }
 }

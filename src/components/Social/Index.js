@@ -1,34 +1,30 @@
-import React, { Component } from 'react';
-import axios from 'axios';
+import React from 'react'
 import { SocialSection, SocialDiv, Icon, Paragraph, Span, Info2 } from './style.js';
 
-export default class Social extends Component {
-    state = {
-        social:[]
-    }
-    componentDidMount(){
-        axios.get('js/data.json').then((res) => this.setState({ social: res.data.social}));
-    }
-    
-    render() {
-        console.log(this.socialList);
-        const socialList = this.state.social.map((item) => {
-            return (
-                <SocialDiv color={item.color} key={item.id}>
-                    <a href={item.Link} target="blank">
-                        <Icon className={item.icon}></Icon>
-                        <Paragraph>
-                            <Span>{item.title}</Span>
-                            <Info2>{item.body}</Info2>
-                        </Paragraph>
-                    </a>
-                </SocialDiv>
-            );
-        });
-        return (
-            <SocialSection>
-                {socialList}
+import { dataSocial } from '../../data'
+
+const index = () => {
+    return (
+        <div className="container-fluid">
+            <SocialSection className="row">
+                {
+                    dataSocial.map((item)=>{
+                        return(
+                            <SocialDiv color={item.color} key={item.id} className="col-lg-4 col-12">
+                                <a href={item.Link} target="_blank" rel="noopener noreferrer">
+                                    <Icon className={item.icon}></Icon>
+                                    <Paragraph>
+                                        <Span>{item.title}</Span>
+                                        <Info2>{item.body}</Info2>
+                                    </Paragraph>
+                                </a>
+                            </SocialDiv>
+                        );
+                    })
+                }
             </SocialSection>
-        )
-    }
+        </div>
+    );
 }
+
+export default index;

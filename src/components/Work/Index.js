@@ -1,34 +1,31 @@
-import React, { Component } from 'react';
-import axios from 'axios';
-import { WorkSection, WorkTitle, SpanTitle, Part, Icon, PartTitle, Line, PartDesc } from './style.js';
+import React from 'react';
+import { dataWork } from '../../data'
 
-export default class Work extends Component {
+import { WorkSection, WorkTitle, SpanTitle, 
+    Part, Icon, PartTitle, Line, PartDesc } from './style.js';
 
-    state ={
-        works:[]
-    }
-    componentDidMount(){
-        axios.get('js/data.json').then((res) => this.setState({ works: res.data.works}));
-    }
-    render() {
-        const {works} = this.state;
-        const workList = works.map((item)=>{
-            return(
-                <Part key={item.id} pos={item.id}>
-                    <Icon className={item.icon_name}></Icon>
-                    <PartTitle>{item.title}</PartTitle>
-                    <Line />
-                    <PartDesc>{item.body}</PartDesc>
-                </Part>
-            );
-        })
+const index = () => {
+    const workList = dataWork.map((item) => {
         return (
-            <WorkSection>
-                <div className="container">
-                    <WorkTitle><SpanTitle>My</SpanTitle> Work</WorkTitle>
+            <Part key={item.id} className="col-lg-4 col-md-6 col-12">
+                <Icon className={item.icon_name}></Icon>
+                <PartTitle>{item.title}</PartTitle>
+                <Line />
+                <PartDesc>{item.body}</PartDesc>
+            </Part>
+        );
+    })
+    
+    return (
+        <WorkSection id="work">
+            <div className="container">
+                <WorkTitle><SpanTitle>My</SpanTitle> Work</WorkTitle>
+                <div className="row">
                     {workList}
                 </div>
-            </WorkSection>
-        )
-    }
+            </div>
+        </WorkSection>
+    );
 }
+
+export default index;
