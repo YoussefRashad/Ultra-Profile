@@ -1,26 +1,28 @@
-import React from 'react';
-import {NavbarSection, Logo, LogoText, UlList, } from './style.js';
-import NavLinks from './NavLinks'
+import React from 'react'
+import NavLink from './navLinks'
+import { NavbarSection  } from './style.js';
 
-const Navbar = () => {
+function nav() {
     return (
-        <NavbarSection>
-            <div className="container-fluid">
-                <div className="row">
+        <NavbarSection className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container">
+                <h3>Ultra<span>Profile</span></h3>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
 
-                    <Logo className="col-xl-7 col-lg-4 col-md-3 col-12 col-sm-12">
-                        <LogoText>Ultra Profile</LogoText>
-                    </Logo>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav ml-auto">
+                        <NavLink />
+                    </ul>
 
-                    <UlList className="col-xl-5 col-lg-8 col-md-9 col-12 col-sm-12">
-                        <NavLinks />
-                    </UlList>
                 </div>
-
-            
             </div>
         </NavbarSection>
-    );
-};
+    )
+}
 
-export default Navbar;
+export default nav
+/*
+
+*/

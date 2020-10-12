@@ -57,3 +57,12 @@ body {
     font-weight: normal;
   }
 }
+
+.navbar h3 {
+  color: #000;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+.navbar h3 span {
+  color: #e0ac1c;
+}

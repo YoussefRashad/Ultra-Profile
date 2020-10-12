@@ -10,7 +10,6 @@ const Contact = () => {
     
     const handleSubmit = (e)=>{
         e.preventDefault()
-        console.log( name, email, subject, body );
 
         setAlert({ show: true, name })
         setTimeout(() => {

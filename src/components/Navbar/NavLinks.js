@@ -1,40 +1,38 @@
-
-import React from 'react';
+import React from 'react'
 import { Link } from 'react-router-dom'
-import { ListItem } from './style'
 
-const NavLinks = () => {
-
+function navLink() {
     return (
-        <nav className="row">
-                <ListItem className="list-item">
-                    <Link 
-                        to="/" 
-                        className="list-Link"
-                    >Home</Link>
-                </ListItem>
+        <>
+            <li className="nav-item">
+                <Link
+                    to="/"
+                    className="list-Link"
+                >Home <span className="sr-only">(current)</span></Link>
+            </li>
+            
+            <li className="nav-item">
+                <Link to="/work" className="list-Link">Work</Link>
+            </li>
 
-                <ListItem className="list-item">
-                    <Link to="/work" className="list-Link">Work</Link>
-                </ListItem>
+            <li className="nav-item">
+                <Link to="/projects" className="list-Link">Projects</Link>
+            </li>
 
-                <ListItem className="list-item">
-                    <Link to="/projects" className="list-Link">Projects</Link>
-                </ListItem>
+            <li className="nav-item">
+                <Link to="/achievement" className="list-Link">Achievement</Link>
+            </li>
 
-                <ListItem className="list-item">
-                    <Link to="/achievement" className="list-Link">Achievement</Link>
-                </ListItem>
+            <li className="nav-item">
+                <Link to="/about" className="list-Link">About</Link>
+            </li>
 
-                <ListItem className="list-item">
-                    <Link to="/about" className="list-Link">About</Link>
-                </ListItem>
+            <li className="nav-item">
+                <Link to="/contact" className="list-Link">Contact</Link>
+            </li>
 
-                <ListItem className="list-item">
-                    <Link to="/contact" className="list-Link">Contact</Link>
-                </ListItem>
-        </nav>
-    );
+        </>
+    )
 }
 
-export default NavLinks;
+export default navLink

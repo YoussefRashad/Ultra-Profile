@@ -294,3 +294,12 @@ body {
 .link{
     text-decoration: none;
 }
+
+@media(max-width: 575px){
+    .header .he-right{
+        width: 100%
+    }
+    .name{
+        font-size: 35px;
+    }
+}
