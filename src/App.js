@@ -1,18 +1,18 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 // Pages
-import Home from './Pages/Home'
-import Projects from './Pages/Projects'
-import SelectProject from './Pages/SelectProject'
-import About from './Pages/About'
-import Achievement from './Pages/Achievement'
-import Contact from './Pages/Contact'
-import Error from './Pages/Error'
+import Home from './Pages/Home/index'
+import Projects from './Pages/Projects/index'
+import SelectProject from './Pages/SelectProject/index'
+import About from './Pages/About/index'
+import Achievement from './Pages/Achievement/index'
+import Contact from './Pages/Contact/index'
+import Error from './Pages/Error/index'
 
 // Components
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Work from './components/Work'
+import Navbar from './components/Navbar/index'
+import Footer from './components/Footer/index'
+import Work from './components/Work/index'
 
 
 function App(){
