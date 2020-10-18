@@ -147,8 +147,8 @@ export const dataProjects = [
         "githubLink": "",
         "liveServer": "",
         "technology": [
-            "HTML",
-            "CSS",
+            "HTML5",
+            "CSS3",
             "HTML 5",
             "CSS 3",
             "JS",
@@ -190,10 +190,10 @@ export const dataProjects = [
         "name": "Future-Tech",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium unde perspiciatis aspernatur. Eveniet expedita repellat facilis quas numquam similique veritatis nobis minus fugit. Nulla error quasi incidunt laboriosam reiciendis!",
         "githubLink": "https://github.com/YoussefRashad/Future-Technology",
-        "liveServer": "https://bjmsp4l8ggat20otac9suq-on.drv.tw/IT-project/MAiN.html",
+        "liveServer": "https://bjmsp4l8ggat20otac9suq-on.drv.tw/IT-project/MAiN.html5",
         "technology": [
-            "HTML",
-            "CSS",
+            "HTML5",
+            "CSS3",
             "HTML 5",
             "CSS 3",
             "JS"
@@ -249,9 +249,10 @@ export const dataProjects = [
         "liveServer": "",
         "technology": [
             "Node JS",
+            "MongoDB",
             "EJS",
-            "HTML",
-            "CSS",
+            "HTML5",
+            "CSS3",
             "Bootstrap 4"
         ],
         "video": ""
@@ -267,8 +268,8 @@ export const dataProjects = [
         "technology": [
             "Node JS",
             "EJS",
-            "HTML",
-            "CSS",
+            "HTML5",
+            "CSS3",
             "Bootstrap 4"
         ],
         "video": ""
@@ -277,14 +278,16 @@ export const dataProjects = [
         "id": 15,
         "type": "ReactJS",
         "image": [imageProject15],
-        "name": "ToDo List",
+        "name": "Creative Todo List",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium unde perspiciatis aspernatur. Eveniet expedita repellat facilis quas numquam similique veritatis nobis minus fugit. Nulla error quasi incidunt laboriosam reiciendis!",
         "githubLink": "",
-        "liveServer": "",
+        "liveServer": "https://creative-todo-list.netlify.app",
         "technology": [
             "React JS",
-            "HTML",
-            "CSS",
+            "React Hooks",
+            "Redux",
+            "HTML5",
+            "CSS3",
             "Bootstrap 4"
         ],
         "video": ""
@@ -296,11 +299,12 @@ export const dataProjects = [
         "name": "Ultra Profile",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium unde perspiciatis aspernatur. Eveniet expedita repellat facilis quas numquam similique veritatis nobis minus fugit. Nulla error quasi incidunt laboriosam reiciendis!",
         "githubLink": "",
-        "liveServer": "",
+        "liveServer": "https://ultra-profile-youssef.netlify.app",
         "technology": [
             "React JS",
-            "HTML",
-            "CSS",
+            "React Hooks",
+            "HTML5",
+            "CSS3",
             "Bootstrap 4"
         ],
         "video": ""
@@ -312,12 +316,13 @@ export const dataProjects = [
         "name": "Reminder Application",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium unde perspiciatis aspernatur. Eveniet expedita repellat facilis quas numquam similique veritatis nobis minus fugit. Nulla error quasi incidunt laboriosam reiciendis!",
         "githubLink": "",
-        "liveServer": "",
+        "liveServer": "https://reminder-app-youssef.netlify.app",
         "technology": [
             "React JS",
+            "React Hooks",
             "Redux",
-            "HTML",
-            "CSS",
+            "HTML5",
+            "CSS3",
             "Bootstrap 4"
         ],
         "video": ""
@@ -329,11 +334,12 @@ export const dataProjects = [
         "name": "Beach Resort",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium unde perspiciatis aspernatur. Eveniet expedita repellat facilis quas numquam similique veritatis nobis minus fugit. Nulla error quasi incidunt laboriosam reiciendis!",
         "githubLink": "",
-        "liveServer": "",
+        "liveServer": "https://beach-resort-youssef.netlify.app",
         "technology": [
             "React JS",
-            "HTML",
-            "CSS",
+            "React Hooks",
+            "HTML5",
+            "CSS3",
             "Bootstrap 4"
         ],
         "video": ""
@@ -348,8 +354,8 @@ export const dataProjects = [
         "liveServer": "",
         "technology": [
             "React JS",
-            "HTML",
-            "CSS",
+            "HTML5",
+            "CSS3",
             "Bootstrap 4"
         ],
         "video": ""
@@ -361,12 +367,13 @@ export const dataProjects = [
         "name": "Budget Calculator",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium unde perspiciatis aspernatur. Eveniet expedita repellat facilis quas numquam similique veritatis nobis minus fugit. Nulla error quasi incidunt laboriosam reiciendis!",
         "githubLink": "",
-        "liveServer": "",
+        "liveServer": "https://budget-calculator-youssef.netlify.app",
         "technology": [
             "React JS",
             "React Hooks",
-            "HTML",
-            "CSS",
+            "Redux",
+            "HTML5",
+            "CSS3",
             "Bootstrap 4"
         ],
         "video": ""
@@ -382,26 +389,117 @@ export const dataProjects = [
         "technology": [
             "React JS",
             "React Hooks",
-            "HTML",
-            "CSS",
+            "HTML5",
+            "CSS3",
             "Bootstrap 4"
         ],
         "video": ""
     },
     {
         "id": 22,
-        "type": "ReactJS",
+        "type": "MERN Stack",
         "image": [imageProject22],
         "name": "Vintage Tech",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium unde perspiciatis aspernatur. Eveniet expedita repellat facilis quas numquam similique veritatis nobis minus fugit. Nulla error quasi incidunt laboriosam reiciendis!",
         "githubLink": "",
-        "liveServer": "",
+        "liveServer": "https://vintage-tech-youssef.netlify.app",
         "technology": [
             "React JS",
             "React Hooks",
-            "HTML",
-            "CSS",
+            "Strapi.IO",
+            "Stripe Payment",
+            "Cloudinary",
+            "Redux",
+            "HTML5",
+            "CSS3",
             "Bootstrap 4"
+        ],
+        "video": ""
+    },
+    {
+        "id": 23,
+        "type": "MERN Stack",
+        "image": [imageProject22],
+        "name": "Lucia's Restaurant",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium unde perspiciatis aspernatur. Eveniet expedita repellat facilis quas numquam similique veritatis nobis minus fugit. Nulla error quasi incidunt laboriosam reiciendis!",
+        "githubLink": "",
+        "liveServer": "https://lucia-restaurant-youssef.netlify.app/",
+        "technology": [
+            "Node JS",
+            "React JS",
+            "React Hooks",
+            "MongoDB",
+            "Express JS",
+            "HTML5",
+            "CSS3",
+            "Bootstrap 4"
+        ],
+        "video": ""
+    },
+    {
+        "id": 24,
+        "type": "ReactJS",
+        "image": [imageProject22],
+        "name": "CREATIVE AGENCY",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium unde perspiciatis aspernatur. Eveniet expedita repellat facilis quas numquam similique veritatis nobis minus fugit. Nulla error quasi incidunt laboriosam reiciendis!",
+        "githubLink": "",
+        "liveServer": "https://creative-agency-youssef.netlify.app",
+        "technology": [
+            "React JS",
+            "React Hooks",
+            "HTML5",
+            "CSS3",
+            "Bootstrap 4"
+        ],
+        "video": ""
+    },
+    {
+        "id": 25,
+        "type": "ReactJS",
+        "image": [imageProject22],
+        "name": "CocktailDB",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium unde perspiciatis aspernatur. Eveniet expedita repellat facilis quas numquam similique veritatis nobis minus fugit. Nulla error quasi incidunt laboriosam reiciendis!",
+        "githubLink": "",
+        "liveServer": "https://the-cocktails-youssef.netlify.app",
+        "technology": [
+            "React JS",
+            "React Hooks",
+            "HTML5",
+            "CSS3",
+            "Bootstrap 4"
+        ],
+        "video": ""
+    },
+    {
+        "id": 26,
+        "type": "ReactJS",
+        "image": [imageProject22],
+        "name": "Counter and Show Data",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium unde perspiciatis aspernatur. Eveniet expedita repellat facilis quas numquam similique veritatis nobis minus fugit. Nulla error quasi incidunt laboriosam reiciendis!",
+        "githubLink": "",
+        "liveServer": "https://redux-count-get-products-youssef.netlify.app",
+        "technology": [
+            "React JS",
+            "React Hooks",
+            "Redux",
+            "HTML5",
+            "CSS3",
+            "Bootstrap 4"
+        ],
+        "video": ""
+    },
+    {
+        "id": 27,
+        "type": "NodeJS",
+        "image": [imageProject22],
+        "name": "Task Manager API",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium unde perspiciatis aspernatur. Eveniet expedita repellat facilis quas numquam similique veritatis nobis minus fugit. Nulla error quasi incidunt laboriosam reiciendis!",
+        "githubLink": "",
+        "liveServer": "/",
+        "technology": [
+            "Node JS",
+            "Express JS",
+            "MongoDB"
         ],
         "video": ""
     }
@@ -471,6 +569,24 @@ export const dataAchievement = [
                 "image": imageProject4,
                 "credential_URL": "",
                 "date": "2019",
+                "achievement": "Honor"
+            },
+            {
+                "ID": "5",
+                "name": "Third Rank - Second Level 19/20",
+                "organization": "Software Engineering Program Helwan University, Egypt",
+                "image": imageProject3,
+                "credential_URL": "",
+                "date": "Sep2020",
+                "achievement": "Honor"
+            },
+            {
+                "ID": "6",
+                "name": "Excellent Achievement in Advanced C Language from SWE Program.",
+                "organization": "Software Engineering Program Helwan University, Egypt",
+                "image": imageProject3,
+                "credential_URL": "",
+                "date": "Jan2017",
                 "achievement": "Honor"
             }
 
@@ -549,6 +665,26 @@ export const dataAchievement = [
                 "credential_ID": "9956-1567-0787-6692",
                 "credential_URL": "",
                 "date": "Aug2019",
+                "achievement": "Certification"
+            },
+            {
+                "ID": "9",
+                "name": "The Complete Node.js Developer Course on Udemy.",
+                "organization": "Udemy",
+                "image": imageProject12,
+                "credential_ID": "",
+                "credential_URL": "",
+                "date": "Sept2020",
+                "achievement": "Certification"
+            },
+            {
+                "ID": "10",
+                "name": "React Tutorial and Projects Course on Udemy.",
+                "organization": "Udemy",
+                "image": imageProject12,
+                "credential_ID": "",
+                "credential_URL": "",
+                "date": "Sept2020",
                 "achievement": "Certification"
             }
         ]

@@ -19,15 +19,18 @@ export default function Header() {
             <b>
               <div className="cont-body">
                 <span className="icon-contact"><MdPhone /></span>
-                <span className="name-contact"> +20 112-672-8146 | </span>
+                <span className="name-contact" style={{color: '#0000EE'}}> +20 112-672-8146</span>
+                <span> | </span>
                 <span className="icon-contact">✉</span>
-                <span className="name-contact"> <a href="mailto:youssefrashad119@gmail.com" className="link text-decoration-none">youssefrashad119@gmail.com</a> | </span>
+              <span className="name-contact"> <a href="mailto:youssefrashad119@gmail.com" className="link text-decoration-none live-serverX">youssefrashad119@gmail.com</a> | </span>
                 <span className="icon-contact">✉</span>
-                <span className="name-contact"> <a href="mailto:youssefrashad119@gmail.com" className="link text-decoration-none">youssefrashad19@yahoo.com</a> | </span>
+              <span className="name-contact"> <a href="mailto:youssefrashad119@gmail.com" className="link text-decoration-none  live-serverX">youssefrashad19@yahoo.com</a> | </span>
                 <span className="icon-contact linkedIn"><FaLinkedin /> </span>
-                <span className="name-contact"><a href="https://linkedin.com/in/youssef-rashad-92b597156" target="_blank" className="link text-decoration-none" rel="noopener noreferrer">LinkedIn</a> | </span>
+                <span className="name-contact">
+                <a href="https://linkedin.com/in/youssef-rashad-92b597156" target="_blank" className="link text-decoration-none live-serverX" rel="noopener noreferrer">LinkedIn </a> 
+                | </span>
                 <span className="icon-contact github"><FaGithub /> </span>
-                <span className="name-contact"><a href="https://github.com/YoussefRashad" target="_blank" className="link text-decoration-none" rel="noopener noreferrer">GitHub</a></span>
+                <span className="name-contact"><a href="https://github.com/YoussefRashad" target="_blank" className="link text-decoration-none live-serverX" rel="noopener noreferrer">GitHub</a></span>
               </div>
   
             </b>

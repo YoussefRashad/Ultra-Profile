@@ -1,6 +1,8 @@
 import React from 'react';
 
 const CareerObjective = () => {
+  const info = "I'm a Software Engineer who is passionate about creating technology to elevate people and help new developers to find the right path."
+  const technologies = "Some technologies I enjoy working with include Javascript, NodeJS, ReactJS, Express and MonogoDB." 
     return (
         <section className="part-cv">
           <div className="header-part">
@@ -14,10 +16,7 @@ const CareerObjective = () => {
                   <div className="point"></div>
                   <div className="body-point">
                     <div className="head-point">
-                      I'm a Software Engineer who is passionate about creating
-                      technology to elevate people and help new developers to find
-                      the right path. Some technologies I enjoy working with
-                      include Javascript, NodeJS, ReactJS, Express and MonogoDB.
+                      {info}<br /> {technologies}
                     </div>
                   </div>
                 </div>

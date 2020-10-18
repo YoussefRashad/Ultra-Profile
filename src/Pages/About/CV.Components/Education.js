@@ -1,4 +1,5 @@
 import React from 'react'
+import { certification } from '../data'
 
 export default function Education() {
     return (
@@ -54,18 +55,14 @@ export default function Education() {
                   Certificate of Achievement <span className="arrow">►</span>
                 </div>
                 <div className="div-body textFont">
-                  <li>React Tutorial and Projects Course on Udemy in 2020.</li>
-                  <li>The Complete Node.js Developer Course on Udemy in 2020.</li>
-                  <li>RESTful API with HTTP and JS on Coursera in 2020.</li>
-                  <li>
-                    Object Oriented Programming using Java on Udemy in 2018.
-                  </li>
-                  <li>Linux with Ubuntu and CentOS on Udemy in 2018.</li>
-                  <li>Ubuntu Linux on Udemy in 2018.</li>
-                  <li>
-                    Excellent Achievement in Advanced C Language from SWE Program,
-                    in 2017.
-                  </li>
+                  
+                  {
+                    certification.map((item, index)=>{
+                      return(
+                        <li key={index}>{item}</li>
+                      );
+                    })
+                  }
                 </div>
               </div>
             </div>
