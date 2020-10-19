@@ -168,11 +168,11 @@ body {
 
 .div-point {
     border-left: 2px solid #403e3f;
-    margin-left: 50px;
+    margin-left: 35px;
     position: relative;
     text-align: left;
-    padding-left: 20px;
-    background-color: white
+    padding-left: 15px;
+    background-color: white;
 }
 
 .height-point {
@@ -194,7 +194,7 @@ body {
 }
 
 .body-point {
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 .head-point {
@@ -293,13 +293,4 @@ body {
 
 .link{
     text-decoration: none;
-}
-
-@media(max-width: 575px){
-    .header .he-right{
-        width: 100%
-    }
-    .name{
-        font-size: 35px;
-    }
 }
