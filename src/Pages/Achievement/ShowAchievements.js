@@ -1,7 +1,6 @@
 import React from 'react';
 
 const ShowAchievements = ({achievements}) => {
-    console.log(achievements);
     const renderData = ()=>{
         const col = achievements.length === 1 ? 'col-12' 
                     : achievements.length === 2 ?  'col-lg-4 col-md-6 col-12' : 'col-lg-4 col-md-6 col-12'

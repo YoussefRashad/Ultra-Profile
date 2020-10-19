@@ -5,7 +5,7 @@ import {
 } from './style.js';
 import bg from '../../assets/images/Home/home-bg.jpg'
 
-const index = () => {
+const Home = () => {
     return (
         <HomeSection image={bg}>
             <div className="container">
@@ -23,4 +23,4 @@ const index = () => {
     );
 }
 
-export default index;
+export default Home;

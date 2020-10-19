@@ -9,7 +9,7 @@ import {
 } from './style.js';
 import bg from '../../assets/images/creative/about-bg.jpg'
 
-const index = () => {
+const Creative = () => {
     return (
         <CreativeSection image={bg}>
             <div className="container">
@@ -27,4 +27,4 @@ const index = () => {
     );
 }
 
-export default index;
+export default Creative;

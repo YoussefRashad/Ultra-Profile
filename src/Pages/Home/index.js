@@ -6,7 +6,7 @@ import ProjectSliding from '../../components/ProjectSliding'
 import Creative from '../../components/Creative'
 import Social from '../../components/Social'
 
-const index = () => {
+const HomePage = () => {
     return (
         <main>
             <Home />
@@ -18,4 +18,4 @@ const index = () => {
     );
 }
 
-export default index;
+export default HomePage;

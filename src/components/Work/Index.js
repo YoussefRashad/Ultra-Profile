@@ -4,7 +4,7 @@ import { dataWork } from '../../data'
 import { WorkSection, WorkTitle, SpanTitle, 
     Part, Icon, PartTitle, Line, PartDesc } from './style.js';
 
-const index = () => {
+const Work = () => {
     const workList = dataWork.map((item) => {
         return (
             <Part key={item.id} className="col-lg-4 col-md-6 col-12">
@@ -28,4 +28,4 @@ const index = () => {
     );
 }
 
-export default index;
+export default Work;

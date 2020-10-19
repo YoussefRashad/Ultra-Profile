@@ -1,6 +1,6 @@
 import React from 'react';
 import CarosuelShowList from './carosuelShowList'
-const index = () => {
+const Sliding = () => {
     return (
         <div style={{ backgroundColor: '#f8f8f8' }}>
             <h1 className="display-5 text-center my-5 pt-5 container">
@@ -13,4 +13,4 @@ const index = () => {
     );
 }
 
-export default index;
+export default Sliding;

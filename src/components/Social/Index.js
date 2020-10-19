@@ -3,7 +3,7 @@ import { SocialSection, SocialDiv, Icon, Paragraph, Span, Info2 } from './style.
 
 import { dataSocial } from '../../data'
 
-const index = () => {
+const Social = () => {
     return (
         <div className="container-fluid">
             <SocialSection className="row">
@@ -27,4 +27,4 @@ const index = () => {
     );
 }
 
-export default index;
+export default Social;
