@@ -7,8 +7,9 @@ import Experience from './CV.Components/Experience'
 import Skills from './CV.Components/Skills'
 
 import './style.css'
-import Volunteering from './CV.Components/Volunteering'
-import Training from './CV.Components/Training'
+
+// import Volunteering from './CV.Components/Volunteering'
+// import Training from './CV.Components/Training'
 
 /*
   - when i need to print the pdf i will remove bootstrap in Index.js and 

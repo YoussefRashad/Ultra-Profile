@@ -25,12 +25,12 @@ export default function Projects() {
                               <b className="light-Color"> Using ( {item.using} ). </b>
                             </span>
                             <a
-                              href={item.liveServer}
+                              href={item.host}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="live-serverX"
                             >
-                              Live Server
+                              {item.liveORgithub ? 'LiveServer' : 'GithubLink'}
                             </a>
                           </div>
                         </div>
@@ -57,12 +57,12 @@ export default function Projects() {
                             <b className="light-Color"> Using {item.using}. </b>
                           </span>
                           <a
-                            href={item.liveServer}
+                            href={item.host}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="live-serverX"
                           >
-                            Live Server
+                            {item.liveORgithub ? 'LiveServer' : 'GithubLink'}
                             </a>
                         </div>
                       </div>

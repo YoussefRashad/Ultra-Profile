@@ -6,62 +6,74 @@ export const projects = [
             {
                 name: "Lucia's Restaurant Project",
                 using: 'MERN Stack',
-                liveServer: 'https://lucia-restaurant-youssef.netlify.app/'
+                host: 'https://lucia-restaurant-youssef.netlify.app/',
+                liveORgithub: true
             },
             {
                 name: 'Vintage Tech Project',
                 using: 'MERN Stack',
-                liveServer: 'https://vintage-tech-youssef.netlify.app'
+                host: 'https://vintage-tech-youssef.netlify.app',
+                liveORgithub: true
             },
             {
                 name: 'CREATIVE AGENCY Project ',
                 using: 'ReactJS, Hooks',
-                liveServer: 'https://creative-agency-youssef.netlify.app'
+                host: 'https://creative-agency-youssef.netlify.app',
+                liveORgithub: true
             },
             {
                 name: 'Ultra Profile Project',
                 using: 'ReactJS, Hooks',
-                liveServer: 'https://ultra-profile-youssef.netlify.app'
+                host: 'https://ultra-profile-youssef.netlify.app',
+                liveORgithub: true
             },
             {
                 name: 'Beach Resort Project ',
                 using: 'ReactJS, Context API',
-                liveServer: 'https://beach-resort-youssef.netlify.app'
+                host: 'https://beach-resort-youssef.netlify.app',
+                liveORgithub: true
             },
             {
                 name: 'CocktailDB Project',
                 using: 'ReactJS, Hooks',
-                liveServer: 'https://the-cocktails-youssef.netlify.app'
+                host: 'https://the-cocktails-youssef.netlify.app',
+                liveORgithub: true
             },
             {
                 name: 'Counter and Show Data',
                 using: 'ReactJS, Hooks, Redux',
-                liveServer: 'https://redux-count-get-products-youssef.netlify.app'
+                host: 'https://redux-count-get-products-youssef.netlify.app',
+                liveORgithub: true
             },
             {
                 name: 'Budget Calculator App',
                 using: 'ReactJS, Hooks',
-                liveServer: 'https://budget-calculator-youssef.netlify.app'
+                host: 'https://budget-calculator-youssef.netlify.app',
+                liveORgithub: true
             },
             {
                 name: 'Reminder App',
                 using: 'ReactJS, Hooks, Redux',
-                liveServer: 'https://reminder-app-youssef.netlify.app'
+                host: 'https://reminder-app-youssef.netlify.app',
+                liveORgithub: true
             },
             {
                 name: 'Task Manager API',
                 using: 'NodeJS, ExpressJS, MongoDB',
-                liveServer: '/'
+                host: 'https://github.com/YoussefRashad/Task-Manager-API',
+                liveORgithub: false
             },
             {
                 name: 'Market App',
                 using: 'NodeJS, EJS, Express, MongoDB, Bootstrap4',
-                liveServer: 'https://github.com/YoussefRashad/Market'
+                host: 'https://github.com/YoussefRashad/Market.ejs',
+                liveORgithub: false
             },
             {
                 name: 'Creative Todo List',
                 using: 'ReactJS, Redux, Hooks',
-                liveServer: 'https://creative-todo-list.netlify.app'
+                host: 'https://creative-todo-list.netlify.app',
+                liveORgithub: true
             },
 
         ]
@@ -72,62 +84,74 @@ export const projects = [
             {
                 name: 'DWH Decisions Making Report',
                 using: 'Power BI',
-                liveServer: '/'
+                host: 'https://github.com/YoussefRashad/DWH-Decisions',
+                liveORgithub: false
             },
             {
                 name: 'Cryptography and Network Security',
                 using: 'JavaSE, JavaFx',
-                liveServer: '/'
+                host: 'https://github.com/YoussefRashad/Cryptography-and-network-security',
+                liveORgithub: false
             },
             {
                 name: 'Library Management System',
                 using: 'JavaSE, JavaFx',
-                liveServer: 'https://github.com/YoussefRashad/Library'
+                host: 'https://github.com/YoussefRashad/Library',
+                liveORgithub: false
             },
             {
                 name: 'Training Center System',
                 using: 'JavaSE, JavaFx',
-                liveServer: 'https://github.com/YoussefRashad/Training-Center-System'
+                host: 'https://github.com/YoussefRashad/Training-Center-System',
+                liveORgithub: false
             },
             {
                 name: 'Fashion Store Management System',
                 using: 'JavaSE, JavaFx',
-                liveServer: 'https://github.com/YoussefRashad/Fashion-Store-Management-System'
+                host: 'https://github.com/YoussefRashad/Fashion-Store-Management-System',
+                liveORgithub: false
             },
             {
                 name: 'Train Ticket Reservation System',
                 using: 'JavaSE, JavaFx',
-                liveServer: 'https://github.com/YoussefRashad/Train-Ticket-Reservation-System'
+                host: 'https://github.com/YoussefRashad/Train-Ticket-Reservation-System',
+                liveORgithub: false
             },
             {
                 name: 'Scheduling Algorithms Priority',
                 using: 'JavaSE, JavaFx',
-                liveServer: 'https://github.com/YoussefRashad/Scheduling-Algorithms-Priority'
+                host: 'https://github.com/YoussefRashad/Scheduling-Algorithms-Priority',
+                liveORgithub: false
             },
             {
                 name: 'Chat Application',
                 using: 'JavaSE, JavaFx',
-                liveServer: 'https://github.com/YoussefRashad/Chat-Application'
+                host: 'https://github.com/YoussefRashad/Chat-Application',
+                liveORgithub: false
             },
             {
                 name: 'Electricity Billing System',
                 using: 'JavaSE, JavaFx',
-                liveServer: 'https://github.com/YoussefRashad/ElectricityBillingSystem'
+                host: 'https://github.com/YoussefRashad/ElectricityBillingSystem',
+                liveORgithub: false
             },
             {
                 name: 'Future-Tech ',
                 using: 'HTML 5, CSS 3, JS, jQuery',
-                liveServer: 'https://github.com/YoussefRashad/Future-Technology'
+                host: 'https://github.com/YoussefRashad/Future-Technology',
+                liveORgithub: false
             },
             {
                 name: "Student's Affairs",
                 using: 'C',
-                liveServer: 'https://github.com/YoussefRashad/Student-s-Affairs'
+                host: 'https://github.com/YoussefRashad/Student-s-Affairs',
+                liveORgithub: false
             },
             {
-                name: 'Market',
+                name: 'Market App',
                 using: 'C',
-                liveServer: '/'
+                host: 'https://github.com/YoussefRashad/Market',
+                liveORgithub: false
             }
         ]
     }
@@ -213,18 +237,19 @@ export const skills = [
             {
                 title: 'Front End',
                 tech: 'ReactJS, HTML5, CSS3, Bootstrap4.'
-            },
-            {
-                title: 'Database',
-                tech: 'SQL, PL/SQL, NoSQL(MongoDB).'
             }
         ]
     },
     {
         rightSide:[
+            // {
+            //     title: 'Data Structures and Algorithms',
+            //     tech: 'Solved +300 programming problems on different online judges.'
+            // },
+            
             {
-                title: 'Data Structures and Algorithms',
-                tech: 'Solved +300 programming problems on different online judges.'
+                title: 'Database',
+                tech: 'SQL, PL/SQL, NoSQL(MongoDB).'
             },
             {
                 title: 'Tools',

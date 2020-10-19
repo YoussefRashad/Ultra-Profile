@@ -6,7 +6,7 @@ const Experience = () => {
         <section className="part-cv">
           <div className="header-part">
             <div className="border-part"></div>
-            <div className="name-part">WORK EXPERIENCE</div>
+            <div className="name-part">TRAINING & EXPERIENCE</div>
           </div>
           
           <div className="body-part">
@@ -56,8 +56,7 @@ const Experience = () => {
                                       bulding, Egypt Nov2010 - Jan2011.</div>
                     <div className="cont-body">
                       <li>I had The 1st place in the Participant, Project Title: World Zoo. {" "}
-                        <a href="https://github.com/YoussefRashad/SmallProgrammer" className="live-serverX" target="_blank" rel="noopener noreferrer">Link</a> {" "}
-                        <a href="https://w8lo30yocojzpufuji6lyg-on.drv.tw/SmallProgrammer/default.htm" className="live-serverX" target="_blank" rel="noopener noreferrer">Live Server</a>
+                        <a href="https://github.com/YoussefRashad/SmallProgrammer" className="live-serverX" target="_blank" rel="noopener noreferrer">GithubLink</a>
                       </li>
                     </div>
                   </div>
