@@ -31,7 +31,7 @@ const Experience = () => {
             </div>
   
             <div className="div-2">
-              <div className="div-point">
+              <div className="div-point-2">
   
               {
                 workExperience[1].rightSide.map((item, index) => {
